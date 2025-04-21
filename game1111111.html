@@ -33,7 +33,6 @@
         <div class="container mx-auto px-4 py-3 flex justify-between items-center">
             <h1 class="text-2xl font-bold">个人网站</h1>
             <div class="space-x-4">
-                <a href="#" onclick="showSection('personal-intro')" class="hover:text-blue-500">个人简介</a>
                 <a href="#" onclick="showSection('game-analysis')" class="hover:text-blue-500">游戏拆解</a>
                 <a href="#" onclick="showSection('game-thinking')" class="hover:text-blue-500">游戏思考</a>
             </div>
@@ -41,73 +40,6 @@
     </nav>
 
     <!-- 以下是网站的主内容区域，包含不同板块的详细信息 -->
-    <!-- 个人简介 -->
-    <div class="container mx-auto px-4 py-8">
-        <div id="personal-intro" class="section hidden">
-            <h2 class="text-2xl font-bold mb-4">个人简介</h2>
-            <div class="bg-white shadow-md p-8 rounded-md">
-                <div class="flex justify-between items-start mb-6">
-                    <div>
-                        <h1 class="text-2xl font-bold mb-1">吴京昊</h1>
-                        <p class="text-gray-600 mb-1">应聘岗位：游戏策划培训生</p>
-                        <p class="text-gray-600 mb-1"><i class="fa-solid fa-phone"></i> 电话：189 - 2656 - 9783</p>
-                        <p class="text-gray-600"><i class="fa-solid fa-envelope"></i> 邮箱：1229264262@qq.com</p>
-                    </div>
-                    <img src="https://picsum.photos/100/100" alt="吴京昊照片" class="w-24 h-24 rounded-full object-cover">
-                </div>
-                <div class="mb-6">
-                    <h2 class="text-xl font-bold border-l-4 border-blue-500 pl-2 mb-2">教育背景</h2>
-                    <p class="text-gray-700">2021.09~2025.07 深圳大学 工商管理 本科学位</p>
-                    <ul class="custom-bullet list-none pl-4">
-                        <li>主修课程统计学、市场营销、国际市场营销、市场调查与预测、心理学、概率学等</li>
-                        <li>GPA3.41(专业排名 12 名)</li>
-                    </ul>
-                </div>
-                <div class="mb-6">
-                    <h2 class="text-xl font-bold border-l-4 border-blue-500 pl-2 mb-2">实习经历</h2>
-                    <p class="text-gray-700">2024.05~2024.08 深圳赫墨斯科科技有限公司 海外游戏项目管理助理</p>
-                    <ul class="custom-bullet list-none pl-4">
-                        <li>运用WhatsApp、Telegram、Fiverr等工具，与53位海外开发者密切沟通，高效管理并推动100多项海外游戏开发进程。</li>
-                        <li>深度试玩游戏，从美术层面提出优化建议，包括修改游戏icon、UI、关卡设计、游戏模型设计等，并协助排查部分游戏BUG</li>
-                        <li>负责创建和移植Unity广告，指导海外开发者搭建谷歌控制台，助力游戏成功通过三轮审核并顺利上架。</li>
-                        <li>定期与游戏技术部门及海外开发者合作，为游戏更新代，保障游戏长期稳定运营英语交流、信息处理以及事件优先级判断能力得到显著锻炼，有力保障游戏项目与海外开发者的顺利推进</li>
-                    </ul>
-                    <p class="text-gray-700">2024.12~2025.3 深圳前海新之江信息技术有限公司 拼多多TEMU招商运营管培生</p>
-                    <ul class="custom-bullet list-none pl-4">
-                        <li>策划能力:制作圣帕特里克节企划和日程表，给出五种四级类目共100款女装款式建议，到全程跟进商家上品，最终走出12个爆款，总计创造2w美元的GMV.</li>
-                    </ul>
-                </div>
-                <div class="mb-6">
-                    <h2 class="text-xl font-bold border-l-4 border-blue-500 pl-2 mb-2">项目经历</h2>
-                    <p class="text-gray-700">2023.5~2024.1 闲鱼无货源授课 全职</p>
-                    <ul class="custom-bullet list-none pl-4">
-                        <li>独立完成从产品寻找、课程制作、视频制作、视频平台投放、私域引流到授课变现的全流程设计与执行。共计赚取1.1万人民币</li>
-                    </ul>
-                    <p class="text-gray-700">2023.12~2024.5 垃圾分类“桶治地球” 组员</p>
-                    <ul class="custom-bullet list-none pl-4">
-                        <li>对垃圾分类的市场进行深入调研，采访多位行业前辈，并且收集该行业的各种利好政策，完成商业计划书市场研究部分。</li>
-                        <li>商讨商业模式，辅助完成该产品的商业逻辑闭环。</li>
-                    </ul>
-                </div>
-                <div class="mb-6">
-                    <h2 class="text-xl font-bold border-l-4 border-blue-500 pl-2 mb-2">游戏相关</h2>
-                    <ul class="custom-bullet list-none pl-4">
-                        <li>游戏内容修改：参与修改超60款游戏内容，对unity游戏制作流程及功能实现有一定理解</li>
-                        <li>文章撰写:《基于社交属性视角下对游戏消费的思考》文章创作。</li>
-                        <li>游戏策划: 自制类肉鸽类型卡牌游戏策划案。</li>
-                        <li>游戏拆解:对云顶之弈进行深入拆解分析。</li>
-                    </ul>
-                </div>
-                <div>
-                    <h2 class="text-xl font-bold border-l-4 border-blue-500 pl-2 mb-2">自我评价</h2>
-                    <ul class="custom-bullet list-none pl-4">
-                        <li>有较强的执行力，独自研究互联网卖课的商业模式，并且施行。自学编程语言制作个人网站。</li>
-                        <li>有较强的抗压能力并对工作投入，每段实习中，每日工作时间不下于10小时，并能获得较好的产出</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
         <!-- 游戏拆解 -->
         <div id="game-analysis" class="section hidden bg-white p-6 rounded-lg shadow-md space-y-6">
             <h2 class="text-2xl font-bold mb-4">游戏拆解 - 云顶之弈</h2>
